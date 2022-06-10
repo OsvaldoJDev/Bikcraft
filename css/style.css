@@ -11,7 +11,21 @@ ul {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+ul,
+p {
+  margin: 0;
+}
+
+/* header start */
 
 .header-bg {
   background-color: #000000;
@@ -80,7 +94,6 @@ a {
   }
 }
 
-
 @media (max-width:600px) {
   .header-menu {
     gap: 12px;
@@ -91,3 +104,38 @@ a {
     font-size: 14px;
   }
 }
+
+/* header end */
+
+/* intro start */
+
+.introducao-bg {
+  background-color: #000000;
+  color: #FFF;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 40px;
+}
+
+.introducao-conteudo {
+  align-self: flex-end;
+  padding-bottom: 80px;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+}
+
+.introducao-conteudo p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
+
+.introducao-conteudo
