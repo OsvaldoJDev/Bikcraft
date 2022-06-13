@@ -4,6 +4,10 @@ body {
   color: #111111;
 }
 
+dd {
+  margin: 0px;
+}
+
 ul {
   margin: 0;
   padding: 0;
