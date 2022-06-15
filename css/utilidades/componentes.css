@@ -19,6 +19,8 @@
   line-height: 1.33;
   font-family: "poppins";
   font-weight: 600;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -52,6 +54,7 @@
   transform: translateX(5px);
   transition: transform 0.2s;
 }
+
 
 .link {
   display: inline-block;
